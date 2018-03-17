@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="admin">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <title>Puissance 4</title>
+</head>
+
+<body ng-controller="gameController">
+    
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <h2 class="text-center"> PUISSANCE 4 GAME - Oumar Vs Sayon </h2>
+    			<canvas ng-click="mouseEvent($event)" id="myCanvas" width="700" height="600" style="border:1px solid #000000;"></canvas>
+    		</div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <br /><br /><br /><br />
+                <p>
+                    <!--<button type="button" class="btn btn-lg btn-primary" ng-click="restartGame()">REJOUER</button> <br />-->
+                    Mon BB - Je vais mettre en place un historique de mes victoires sur toi. 
+                </p>
+                <h4> Règle Pour jouer</h4>
+                <p>
+                    <ul>
+                        <li>
+                            Il suffit de lancer le jeu sur 2 navigateurs et d'attendre d'avoir la confirmation que les 2 joueurs sont connectés. (Attendez que l'autre soit connectez pour jouer Please). Ceci est la v1.
+                        </li>
+                        <li>
+                            Si vous rencontrez des problèmes <b>fermer les navigateurs</b> qui lancent l'application et reconnectez-vous.
+                        </li>
+                        <li>
+                            Premier venu premier servi. ->  C'est player 1 qui commence.
+                        </li>
+                    </ul>
+                    <span style="color: red">JE T'AIME SAYON CONDE. Ton bb <3 <3 </span>
+                </p>
+            </div>
+    	</div>
+    </div>    
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="./bower/angular/angular.min.js"></script>
+
+    <script src="./app/core.js"></script>
+    <script src="./app/gameController.js"></script>
+
+</body>
+
+</html>
