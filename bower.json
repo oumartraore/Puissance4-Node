@@ -1,0 +1,13 @@
+{
+  "name": "puissance4",
+  "description": "Jeu Puissance 4",
+  "main": "index.js",
+  "authors": [
+    "franyse"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}
