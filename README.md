@@ -8,7 +8,7 @@ Ouvrir un terminal et se deplacer dans le projet
 - $bower install
 
 
-## Compilation
+## Execution
 
 Ouvrir un terminal et se deplacer dans le projet
 
