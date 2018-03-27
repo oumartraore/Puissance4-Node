@@ -1,7 +1,7 @@
 /**
     * CORE MODULE
     * @namespace Modules
-    * @desc Module principale de sayon-shopping Admin
+    * @desc Module principale
 */
 
 (function() {
